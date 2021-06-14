@@ -2,19 +2,22 @@
 <head>
     <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
     <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="src/jquery.m.toast.css" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
     <script type="text/javascript" src="src/jquery.m.toast.js"></script>
+    
+<style type="text/css">
+    body{
+    background: url("https://blazar.com.mx/wp-content/uploads/2021/05/actualizando2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;   
+    }
+</style>
 </head>
 <body>
-   <!-- <button id="btn1">default</button>
-    <button id="btn2">set width 500px</button>
-    <button id="btn3">set duration 0.5s</button>
-    <button id="btn4">set type danger</button>
-    <button id="btn5">set align top</button>
-    <button id="btn6">set singleton false</button>
-	
-	-->
 </body>
 
 <script type="text/javascript">
@@ -26,7 +29,7 @@ $(function () {
         else if(id == 'btn2')
             $.toast('specify width 500px', {'width': 500});
         else if(id == 'btn3')
-            $.toast('set duration 0.5s', {'duration': 5000,'type':'info'});
+            $.toast('set duration 0.30s', {'duration': 5000,'type':'info'});
         else if(id == 'btn4')
             $.toast('set type danger', {'type': 'danger'});
         else if(id == 'btn5')
@@ -57,7 +60,7 @@ timer();
         if(c==0){
          //   $('.c').text(n);
 			//alert('OK');
-			$(location).attr('href','https://example.com');
+			$(location).attr('href','https://cctc.mx/');
         }
 	},1000);
 }
